@@ -14,7 +14,7 @@ public class Contador {
 		ParametroInvalidosException parametro = new ParametroInvalidosException();
 		parametro.parametro(parametro1, parametro2);
 		
-		
+	terminal.close();	
 	}
 
 }
