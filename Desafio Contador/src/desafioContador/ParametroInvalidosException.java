@@ -2,7 +2,7 @@ package desafioContador;
 
 public class ParametroInvalidosException {
 	
-	public void parametro(int prm1, int prm2) {
+	public static void parametro(int prm1, int prm2) {
 		try {
 			
 		

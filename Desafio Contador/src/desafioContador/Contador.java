@@ -11,9 +11,9 @@ public class Contador {
 		System.out.println("Digite o segundo número: ");
 		int parametro2 = terminal.nextInt();
 		
-		ParametroInvalidosException parametro = new ParametroInvalidosException();
-		parametro.parametro(parametro1, parametro2);
-		
+//		ParametroInvalidosException parametro = new ParametroInvalidosException();
+//		parametro.parametro(parametro1, parametro2);
+		ParametroInvalidosException.parametro(parametro1, parametro2);
 	terminal.close();	
 	}
 
